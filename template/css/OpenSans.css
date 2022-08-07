@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: normal;
+  font-style: normal;
+  /* IE9 Compat Modes прастите юзеры ослика, у меня нет для вас шрифта */
+  /*src: url(/fonts/OpenSans-Regular.eot);*/ 
+  src: /*local('Open Sans Regular'), local('OpenSans-Regular'),*/
+    /*url(/templates/fonts/OpenSans-Regular.eot) format('embedded-opentype'), 
+    url(/fonts/OpenSans-Regular.woff) format('woff'),*/
+    url(/template/fonts/OpenSans/OpenSans-Regular.ttf) format('truetype')/*,
+    url(/fonts/OpenSans-Regular.svg#OpenSans-Regular) format('svg')*/;
+}
